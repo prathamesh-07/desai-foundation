@@ -11,6 +11,9 @@ export default defineConfig({
       '@/components/home': '/src/components/home/index.ts'
     }
   },
+  build: {
+    outDir: 'docs',
+  },
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
