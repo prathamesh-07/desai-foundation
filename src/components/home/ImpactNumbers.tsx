@@ -45,7 +45,7 @@ export const ImpactNumbers: React.FC = () => {
             transition={{ duration: 0.8 }}
           >
             <div className="absolute inset-[-50px] bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary-100/80 via-primary-50/50 to-transparent blur-3xl rounded-full -z-10 dark:from-fuchsia-900/60 dark:via-fuchsia-950/40 dark:to-transparent"></div>
-            <img src="/public/impact_numbers.png" alt="We've Impacted 10,000,000 Lives" className="w-full max-w-sm" />
+            <img src="/impact_numbers.png" alt="We've Impacted 10,000,000 Lives" className="w-full max-w-sm" />
           </motion.div>
 
           <motion.div 
